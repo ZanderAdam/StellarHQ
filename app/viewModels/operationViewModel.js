@@ -35,6 +35,13 @@ define([
         build: function (opType) {
           return new ManageDonationViewModel(buildOptions, opType)
         }
+      },
+      {
+        type: 'inflation',
+        description: "Inflation",
+        build: function (opType) {
+          return new InflationViewModel(buildOptions, opType)
+        }
       }
     ]);
 
