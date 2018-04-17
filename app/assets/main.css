@@ -55,6 +55,10 @@ body {
   z-index: -1;
 }
 
+#refresh {
+  display: none;
+}
+
 .header {
   margin-bottom: 15px;
   height: 50px;
