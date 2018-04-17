@@ -9,9 +9,17 @@ require([
   domReady,
   util
 ) {
-  domReady(function () {
 
-    ko.applyBindings(new appViewModel());
+
+  domReady(function () {
+    if (window.applicationCache.status == window.applicationCache.UPDATEREADY) {
+      window.applicationCache.swapCache();
+      if (confirm('A new version of this site is available. Load it?')) {
+        window.location.reload();
+      }
+    } else {
+      ko.applyBindings(new appViewModel());
+    }
   });
 });
 
