@@ -5,7 +5,7 @@
 Account Manager and Transaction Builder for Stellar. 
 Built for community, by community. Free like beer.
 
-Available on: https://Lumenaut-Network.github.io/StellarHQ/  
+Available on: https://zanderadam.github.io/StellarHQ/
   
 The app can also be used in offline mode without access to the Internet. Clone or download the [repo zip](https://github.com/Lumenaut-Network/StellarHQ/archive/master.zip) and move the files to your offline device. Start the app by double clicking on `index.html`. This will open the app in devices default browser.
 
